@@ -1,0 +1,49 @@
+
+<div class="container-fluid">
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#loginTab">Login</a></li>
+    <li><a data-toggle="tab" href="#registerTab">Register</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="loginTab" class="tab-pane fade in active">
+      <h3>Login</h3>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="inputEmail">Email address</label>
+          <input name="logemail" type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="inputPassword">Password</label>
+          <input name="logpassword" type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <div id="loginError"></div>
+      </form>
+    </div>
+    <div id="registerTab" class="tab-pane fade">
+      <h3>Register</h3>
+      <form id="registerForm">
+        <div class="form-group">
+          <label for="inputEmail">Email address</label>
+          <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="inputUsername">Username</label>
+          <input name="username" type="text" class="form-control" id="inputUsername" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label for="inputPasswordReg">Password</label>
+          <input name="password" type="password" class="form-control" id="inputPasswordReg" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="inputPasswordConfirm">Password confirm</label>
+          <input name="passwordConf" type="password" class="form-control" id="inputPasswordConfirm" placeholder="Confirm password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <div id="registerError"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

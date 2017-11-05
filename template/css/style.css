@@ -1,0 +1,54 @@
+html, body{
+  min-height: 100% !important;
+  height: 100%;
+}
+#titoloChat{
+  text-align: center;
+  color: #EF7196;
+  font-size: 33px;
+  font-family: 'Press Start 2P';
+}
+#logout{
+  float: right;
+}
+.btn-primary{
+  background-color: #EF7196 !important;
+  border-color: #e84474 !important;
+}
+
+ul {
+    list-style-image: url('http://i.imgur.com/FTYq4E1.gif');
+}
+
+body{
+  background-color: #0D8580 !important;
+}
+#dialog-window {
+  padding: 20px;
+  -webkit-box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+#scrollable-content {
+  overflow: auto;
+  height: 300px;
+}
+.input-group{
+  margin: 20px;
+}
+#wrapper{
+  margin-top: 50px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#loginError, #registerError{
+  display: none;
+  float: right;
+  color: red;
+}
+
+.identificator{
+  display: none;
+}
